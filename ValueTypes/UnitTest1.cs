@@ -60,6 +60,7 @@ namespace ValueTypes
         public void Structs()
         {
             DateTime today = DateTime.Today;
+            DateTime birthday = new DateTime(1000, 4, 12);
         }
     }
 }
