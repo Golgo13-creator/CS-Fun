@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison", "Comparison\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{B1281BEE-3725-4C54-980D-8D9EB93423F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopExamples", "LoopExamples\LoopExamples.csproj", "{4454E8B9-B883-46E1-925E-9C3381E5D881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmChallenge1", "AmChallenge\AmChallenge1.csproj", "{08E3520A-7917-4CBC-9956-DF98A1EA1501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B1281BEE-3725-4C54-980D-8D9EB93423F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1281BEE-3725-4C54-980D-8D9EB93423F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1281BEE-3725-4C54-980D-8D9EB93423F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4454E8B9-B883-46E1-925E-9C3381E5D881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4454E8B9-B883-46E1-925E-9C3381E5D881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4454E8B9-B883-46E1-925E-9C3381E5D881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4454E8B9-B883-46E1-925E-9C3381E5D881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E3520A-7917-4CBC-9956-DF98A1EA1501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E3520A-7917-4CBC-9956-DF98A1EA1501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E3520A-7917-4CBC-9956-DF98A1EA1501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E3520A-7917-4CBC-9956-DF98A1EA1501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
