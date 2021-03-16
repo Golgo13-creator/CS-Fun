@@ -15,7 +15,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditional
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopExamples", "LoopExamples\LoopExamples.csproj", "{4454E8B9-B883-46E1-925E-9C3381E5D881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmChallenge1", "AmChallenge\AmChallenge1.csproj", "{08E3520A-7917-4CBC-9956-DF98A1EA1501}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengesWk1", "AmChallenge\ChallengesWk1.csproj", "{08E3520A-7917-4CBC-9956-DF98A1EA1501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceClasses", "InheritanceClasses\InheritanceClasses.csproj", "{0D6BD1C2-36D6-4838-AE81-9247ED9F2E2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5995E5A4-F75E-4B25-8248-1192CD49B97B}"
+	ProjectSection(SolutionItems) = preProject
+		Classes\Calculator.cs = Classes\Calculator.cs
+		Classes\Greeter.cs = Classes\Greeter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes", "Classes", "{5CFF023C-148B-4570-81BC-34A62106681A}"
+	ProjectSection(SolutionItems) = preProject
+		Classes\Classes\Person.cs = Classes\Classes\Person.cs
+		Classes\Classes\Vehicle.cs = Classes\Classes\Vehicle.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenges", "Challenges", "{2794A236-C6F8-4986-A3A6-AD5E3A719A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatterns", "RepositoryPatterns\RepositoryPatterns.csproj", "{06D066D9-37C9-49BA-BD27-E1596556519C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingContentRepoTest", "StreamingContentRepoTest\StreamingContentRepoTest.csproj", "{31157B7F-5341-46ED-B13F-B41A43C2E1F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +71,25 @@ Global
 		{08E3520A-7917-4CBC-9956-DF98A1EA1501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08E3520A-7917-4CBC-9956-DF98A1EA1501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08E3520A-7917-4CBC-9956-DF98A1EA1501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6BD1C2-36D6-4838-AE81-9247ED9F2E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6BD1C2-36D6-4838-AE81-9247ED9F2E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6BD1C2-36D6-4838-AE81-9247ED9F2E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6BD1C2-36D6-4838-AE81-9247ED9F2E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D066D9-37C9-49BA-BD27-E1596556519C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D066D9-37C9-49BA-BD27-E1596556519C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D066D9-37C9-49BA-BD27-E1596556519C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D066D9-37C9-49BA-BD27-E1596556519C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31157B7F-5341-46ED-B13F-B41A43C2E1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31157B7F-5341-46ED-B13F-B41A43C2E1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31157B7F-5341-46ED-B13F-B41A43C2E1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31157B7F-5341-46ED-B13F-B41A43C2E1F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08E3520A-7917-4CBC-9956-DF98A1EA1501} = {2794A236-C6F8-4986-A3A6-AD5E3A719A05}
+		{5CFF023C-148B-4570-81BC-34A62106681A} = {5995E5A4-F75E-4B25-8248-1192CD49B97B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4727939-8AA4-4CCE-A269-E88443B47315}

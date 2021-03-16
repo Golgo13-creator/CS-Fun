@@ -16,6 +16,18 @@ namespace Classes
         }
         public DateTime DateOfBirth { get; set; }
 
+        public int Age
+        {
+            get
+            {
+                TimeSpan ageSpan = DateTime.Now - DateOfBirth;
+                double totalAgeInYears = ageSpan.TotalDays / 365.25;
+                int yearsOfAge = Convert.ToInt32(Math.Floor(totalAgeInYears));
+                return yearsOfAge;
+            }
+        }
+        public Vehicle Transport { get; set; }
+
         public Person() {}
 
         public Person(string firstName, string lastName, DateTime dateOfBirth)
