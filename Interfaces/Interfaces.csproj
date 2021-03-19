@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6D19A64A-88B7-4FE3-B010-D425897FA4FE}</ProjectGuid>
+    <ProjectGuid>{FC71A1CC-D79F-426A-AE14-EB18E5ACFA69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StreamingContent_Inheritance</RootNamespace>
-    <AssemblyName>StreamingContent_Inheritance</AssemblyName>
+    <RootNamespace>Interfaces</RootNamespace>
+    <AssemblyName>Interfaces</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,21 +49,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Episode.cs" />
-    <Compile Include="Movie.cs" />
-    <Compile Include="Show.cs" />
-    <Compile Include="StreamingRepo.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Banana.cs" />
+    <Compile Include="IFruit.cs" />
+    <Compile Include="IFruitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RepositoryPatterns\RepositoryPatterns.csproj">
-      <Project>{06D066D9-37C9-49BA-BD27-E1596556519C}</Project>
-      <Name>RepositoryPatterns</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

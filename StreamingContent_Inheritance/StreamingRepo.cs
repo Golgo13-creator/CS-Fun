@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace StreamingContent_Inheritance
 {
-    class StreamingRepo : StreamingContentRepository
+    public class StreamingRepo : StreamingContentRepository
     {
         //we will use the same _contentDir from StreamingContentRepository
         //Read -> Show
         public Show GetShowByTitle(string title)
         {
             //to find a specific show
-            foreach(StreamingContent content in _contentDir)
+            foreach (StreamingContent content in _contentDir)
             {
-                if(content.Title.ToLower() == title.ToLower() && content.GetType() == typeof(Show))
+                if (content.Title.ToLower() == title.ToLower() && content.GetType() == typeof(Show))
                 {
                     return (Show)content;
                 }
@@ -26,7 +26,7 @@ namespace StreamingContent_Inheritance
         //Read -> Movie
         public Movie GetMovieByTitle(string title)
         {
-            foreach(StreamingContent content in _contentDir)
+            foreach (StreamingContent content in _contentDir)
             {
                 if (content.Title.ToLower() == title.ToLower() && content is Movie)
                 {
@@ -40,7 +40,7 @@ namespace StreamingContent_Inheritance
         {
             //use this to add our shows -> 
             List<Show> allShows = new List<Show>();
-            foreach(StreamingContent content in _contentDir)
+            foreach (StreamingContent content in _contentDir)
             {
                 //if content is a type show
                 if (content is Show)
@@ -55,7 +55,7 @@ namespace StreamingContent_Inheritance
         public List<Movie> GetAllMovies()
         {
             List<Movie> allMovies = new List<Movie>();
-            foreach(StreamingContent content in _contentDir)
+            foreach (StreamingContent content in _contentDir)
             {
                 if (content is Movie)
                 {
@@ -64,8 +64,20 @@ namespace StreamingContent_Inheritance
             }
             return allMovies;
         }
-
+        /*public List<Movie> GetMoviesByRunTime(double runTime)
+        {
+            List<Movie> filmLength = new List<Movie>();
+            foreach(StreamingContent content in _contentDir)
+            {
+                if(content is Movie && content. == runTime)
+                {
+                    filmLength.Add(content as Movie); 
+                }
+            }
+            return null;
+        }*/
     }
-}//Get by RunTime/AverageRunTime
+}
+//Get by RunTime/AverageRunTime
 //get shows with over x episodes
 //get shows/movie by rating
